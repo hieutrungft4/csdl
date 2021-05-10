@@ -1,0 +1,25 @@
+.main {
+    margin-top: -10px;
+    width: 85%;
+    min-height: 50px;
+    background-color: #9b9bec;
+    margin: 0 auto;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#btn-change {
+    outline: none;
+    cursor: pointer;
+    background-color: #9ccdbc;
+    height: 25px;
+}
+
+i:hover {
+    color: #9ccdbc;
+    cursor: pointer;
+}

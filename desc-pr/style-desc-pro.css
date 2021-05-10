@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: antiquewhite;
+}
+
+.contain .header {
+    width: 100vw;
+    height: 60px;
+    background-color: #bc84ee;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contain .header .box-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.contain .header .box-info .con-log {
+    margin-right: 100px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contain .header .box-info .con-log #sign-out:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+/*.contain .header .box-info #login {*/
+/*    margin-right: 70px;*/
+/*    margin-left: 15px;*/
+/*}*/
+
+/*.contain .header .box-info .account {*/
+/*    line-height: 30px;*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.contain .header .box-info .account:hover {*/
+/*    color: aquamarine;*/
+/*}*/
+
+/*.contain .header .box-search {*/
+/*    height: 70px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.contain .header .box-search .search #search-pro {*/
+/*    height: 35px;*/
+/*    width: 70vh;*/
+/*    font-size: 16px;*/
+/*    font-family: "Arial Narrow";*/
+/*    border-radius: 35px;*/
+/*    outline: none;*/
+/*    border: 1px #7f7fec solid;*/
+/*    cursor: text;*/
+/*    padding-left: 13px;*/
+/*    padding-right: 25px;*/
+/*}*/
+
+/*.contain .header .box-search .search #search-pro:hover {*/
+/*    border-color: blue;*/
+/*}*/
+
+/*.contain .header .box-search #search-icon {*/
+/*    position: relative;*/
+/*    right: 25px;*/
+/*}*/
+
+/*.contain .header .box-search #search-icon:hover {*/
+/*    color: #9defd4;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.contain .spacer {
+    background-color: white;
+    height: 1px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.contain .main {
+    height: 100px;
+    background-color: #bc84ee;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .con-ima {
+    width: 40%;
+    height: 592px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.main .con-ima > img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+}
+
+.con-ima > i:hover {color: #9ccdbc; cursor: pointer}
+
+.main .desc {
+    width: 60%;
+    height: 592px;
+    background-color: antiquewhite;
+    padding: 30px;
+    box-sizing: border-box;
+}

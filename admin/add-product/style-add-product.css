@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #9b9bec;
+    display: flex;
+    justify-content: center;
+}
+
+.main #form-1 {
+    width: 700px;
+    min-height: 100px;
+    background-color: #faf7f7;
+    align-self: center;
+    font-family: cursive;
+    padding: 20px 20px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 10px grey;
+}
+
+.main #form-1 .form-group-0 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-0 .header {
+    font-size: 25px;
+    text-align: center;
+}
+
+.form-group-0 .back #back-icon {
+    cursor: pointer;
+}
+
+.form-group-0 .back #back-icon:hover {
+    color: #7979e3;
+}
+
+.main #form-1 .form-group-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main #form-1 .line-1 {
+    width: auto;
+    margin: 20px auto;
+}
+
+.main #form-1 .form-group-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main #form-1 .form-group-2 .image {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.main #form-1 .form-group-2 .ima #pro-image {
+    overflow-x: hidden;
+}
+
+.form-group-2 .con-image {
+    /* width: 129px; */
+    /* min-height: 200px; */
+    /* border: 1px solid; */
+    margin-top: 10px;
+}
+
+.form-group-2 .con-image #preview {
+    width: 127px;
+}
+
+.form-group-2 .descrip {
+    display: inline;
+}
+
+.form-group-2 .descrip .desc {
+    width: 350px;
+    height: 130px;
+    border: 1px solid;
+    margin-top: 10px;
+    background-color: #7f7fec;
+}
+
+.form-group-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-group-4 #btn-sv {
+    outline: none;
+    cursor: pointer;
+    background-color: #7f7fec;
+    margin-top: 30px;
+    height: 25px;
+    width: 50px;
+    float: right;
+}
+
+.form-group-4 #btn-delete {
+    outline: none;
+    cursor: pointer;
+    background-color: #7f7fec;
+    margin-top: 30px;
+    height: 25px;
+    width: 50px;
+    float: left;
+}
+
+.main #form-1 .input {
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid rgb(97, 196, 146);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 4px;
+    width: 260px;
+    font-family: "Arial Narrow";
+}
+
+.form-group-5 .type-pro {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+/*.form-group-5 .type-pro #add-type {*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*.form-group-5 #add-type #plus {*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.form-group-5 #add-type #plus:hover {*/
+/*    color: #7979e3;*/
+/*}*/
+
+/*.form-group-5 #add-type #drop-type {*/
+/*    display: none;*/
+/*}*/
+
+.form-group-5 .type-pro #add-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group-5 .type-pro #drop-type {
+    margin-left: 10px;
+    /*border-bottom-left-radius: unset;*/
+    /*border-bottom-right-radius: unset;*/
+}
+
+.form-group-5 .type-pro #drop-type:hover {
+    display: block;
+}
+
+.form-group-5 .type-pro #table-list {
+    position: absolute;
+    left: 406px;
+    top: 270px;
+    font-size: 16px;
+    border: 1px solid rgb(97, 196, 146);
+    border-radius: 5px;
+    /*border-top-left-radius: unset;*/
+    /*border-top-right-radius: unset;*/
+    font-family: "Arial Narrow";
+    max-height: 180px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.form-group-5 .type-pro #table-list > div {
+    text-align: center;
+    height: 25px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #9defd4;
+    overflow-x: hidden;
+}
+
+.form-group-5 .type-pro #table-list > div:hover {
+    background-color: darkgrey;
+}

@@ -1,0 +1,21 @@
+.add-product {
+    text-decoration: none;
+}
+.add-product:hover {
+    cursor: pointer;
+    color: #7979e3;
+}
+.delivery {
+    text-decoration: none;
+}
+.delivery:hover {
+    cursor: pointer;
+    color: #7979e3;
+}
+.statistical {
+    text-decoration: none;
+}
+.statistical:hover {
+    cursor: pointer;
+    color: #7979e3;
+}

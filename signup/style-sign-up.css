@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../background/sightseeing.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+#myForm {
+    width: 360px;
+    min-height: 100px;
+    text-align: center;
+    background-color: rgb(115, 197, 115);
+    align-self: center;
+    font-family: cursive;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 40px 25px;
+    opacity: 0.7;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-p {
+    font-size: 40px;
+}
+
+.spacer {
+    margin-top: 30px;
+}
+
+.input {
+    height: 37px;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 5px;
+    border: 1px solid springgreen;
+    outline: unset;
+    padding: 0 10px;
+}
+
+.form-group #username {
+    margin-top: 10px;
+}
+
+.form-group #password {
+    margin-top: 20px;
+}
+
+.form-group #confirm-password {
+    margin-top: 20px;
+}
+
+.btn-sign-up {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-sign-up {
+    font-size: 35px;
+    border: 1px solid springgreen;
+    border-radius: 5px;
+    background-color: rgb(86, 86, 177);
+    outline: unset;
+}
+
+#btn-sign-up:hover {
+    background-color: rgb(19, 19, 216);
+    cursor: pointer;
+}
+
+#showpass {
+    display: flex;
+    flex-direction: row;
+}
+
+.showPassword {
+    margin: 5px 0;
+}
+
+.return {
+    margin-top: 20px;
+}
+
+#return-page {
+    text-decoration: none;
+}
+
+#return-page:hover {
+    color: royalblue;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.line #draw-line {
+    width: 294px;
+    height: 1px;
+    background-color: grey;
+}
+
+.form-group .form-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: rgb(184, 82, 82);
+}

@@ -1,0 +1,141 @@
+:root {
+    --title-p: 20px;
+    --input-p: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(170, 166, 166);
+    display: flex; 
+    justify-content: center;
+}
+
+.form-1 {
+    font-family: cursive;
+    text-align: center;
+    width: 700px;
+    min-height: 100px;
+    background-color: white;
+    align-self: center;
+    opacity: 0.9;
+    border-radius: 3px;
+    box-shadow: 4px 4px 10px grey;
+}
+
+.form-header-group #header-1 {
+    font-size: 35px;
+}
+
+.form-header-group .header {
+    text-align: left;
+    font-size: var(--title-p);
+}
+
+.form-header-group .form-group-1 {
+    padding: 40px 50px;
+}
+
+.form-header-group #back-icon:hover {
+    color: steelblue;
+}
+
+.line-1 {
+    background-color: grey;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.full-name {
+    padding: 0 50px;
+    font-size: var(--title-p);
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-2 .full-name #fullname {
+    width: 350px;
+    height: 30px;
+    font-size: var(--input-p);
+}
+
+.address {
+    padding: 30px 50px;
+    font-size: var(--title-p);
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-3 .address #address {
+    width: 350px;
+    height: 30px;
+    font-size: var(--input-p);
+}
+
+.e-mail {
+    padding: 0 50px;
+    font-size: var(--title-p);
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-4 .e-mail #e-mail {
+    width: 350px;
+    height: 30px;
+    font-size: var(--input-p);
+}
+
+.mobile {
+    padding: 30px 50px;
+    font-size: var(--title-p);
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-5 .mobile #mobile-number {
+    width: 350px;
+    height: 30px;
+    font-size: var(--input-p);
+}
+
+.line-2 {
+    background-color: grey;
+    height: 1px;
+    margin: 20px auto 50px;
+}
+
+.next {
+    padding: 0 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group-6 .next #next {
+    width: 200px;
+    text-align: center;
+    font-size: 37px;
+    font-family: cursive;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(65, 201, 65);
+}
+
+.form-group-6 .next #next:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.input {
+    border: 1px solid rgb(97, 196, 146);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 4px;
+}
